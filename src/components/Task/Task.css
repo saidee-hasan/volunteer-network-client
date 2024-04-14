@@ -1,0 +1,12 @@
+.card {
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    text-align: center;
+    margin-right: 40px;
+  }
+}

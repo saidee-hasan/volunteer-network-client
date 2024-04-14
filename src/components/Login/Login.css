@@ -1,0 +1,30 @@
+.login {
+  background-color: white;
+  margin-top: 300px;
+  height: 300px;
+  width: 500px;
+  margin-left: 30%;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.login-btn {
+  margin-top: 15%;
+  width: 90%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+@media only screen and (max-width: 768px) {
+  .login {
+    background-color: rgb(255, 255, 255);
+    margin-top: 300px;
+    height: 300px;
+    width: 95%;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .login-btn {
+    margin-top: 130px;
+    background-color: white;
+  }
+}
